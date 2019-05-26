@@ -1,216 +1,540 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+{% extends "news/base.html" %}
+{% block content %}
+                
+                <!-- Main -->
+                    <div id="main">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+                        <!-- Post -->
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h2><a href="single.html">Magna sed adipiscing</a></h2>
+                                        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                                    </div>
+                                    <div class="meta">										
+                                        <time class="published" datetime="2015-11-01">November 1, 2015</time>
+                                        <a href="#" class="author"><span class="name">Jane Doe</span><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                    </div>
+                                </header>
+                                <a href="single.html" class="image featured"><img src="static/news/images/pic01.jpg" alt="" /></a>
+                                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                                <footer>
+                                    <ul class="actions">
+                                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                                    </ul>
+                                    <ul class="stats">
+                                        <li><a href="#">General</a></li>
+                                        <li><a href="#" class="icon fa-heart">28</a></li>
+                                        <li><a href="#" class="icon fa-comment">128</a></li>
+                                    </ul>
+                                </footer>
+                            </article>
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <div class="container">
-  <header class="blog-header py-3">
-    <div class="row flex-nowrap justify-content-between align-items-center">
-      <div class="col-4 pt-1">
-        <a class="text-muted" href="#">Subscribe</a>
-      </div>
-      <div class="col-4 text-center">
-        <a class="blog-header-logo text-dark" href="#">Large</a>
-      </div>
-      <div class="col-4 d-flex justify-content-end align-items-center">
-        <a class="text-muted" href="#">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24" focusable="false"><title>Search</title><circle cx="10.5" cy="10.5" r="7.5"></circle><path d="M21 21l-5.2-5.2"></path></svg>
-        </a>
-        <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
-      </div>
-    </div>
-  </header>
+                        <!-- Post -->
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h2><a href="single.html">Ultricies sed magna euismod enim vitae gravida</a></h2>
+                                        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                                    </div>
+                                    <div class="meta">
+                                        <time class="published" datetime="2015-10-25">October 25, 2015</time>
+                                        <a href="#" class="author"><span class="name">Jane Doe</span><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                    </div>
+                                </header>
+                                <a href="single.html" class="image featured"><img src="static/news/images/pic02.jpg" alt="" /></a>
+                                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper.</p>
+                                <footer>
+                                    <ul class="actions">
+                                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                                    </ul>
+                                    <ul class="stats">
+                                        <li><a href="#">General</a></li>
+                                        <li><a href="#" class="icon fa-heart">28</a></li>
+                                        <li><a href="#" class="icon fa-comment">128</a></li>
+                                    </ul>
+                                </footer>
+                            </article>
 
-  <div class="nav-scroller py-1 mb-2">
-    <nav class="nav d-flex justify-content-between">
-      <a class="p-2 text-muted" href="#">World</a>
-      <a class="p-2 text-muted" href="#">U.S.</a>
-      <a class="p-2 text-muted" href="#">Technology</a>
-      <a class="p-2 text-muted" href="#">Design</a>
-      <a class="p-2 text-muted" href="#">Culture</a>
-      <a class="p-2 text-muted" href="#">Business</a>
-      <a class="p-2 text-muted" href="#">Politics</a>
-      <a class="p-2 text-muted" href="#">Opinion</a>
-      <a class="p-2 text-muted" href="#">Science</a>
-      <a class="p-2 text-muted" href="#">Health</a>
-      <a class="p-2 text-muted" href="#">Style</a>
-      <a class="p-2 text-muted" href="#">Travel</a>
-    </nav>
-  </div>
+                        <!-- Post -->
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h2><a href="single.html">Euismod et accumsan</a></h2>
+                                        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                                    </div>
+                                    <div class="meta">
+                                        <time class="published" datetime="2015-10-22">October 22, 2015</time>
+                                        <a href="#" class="author"><span class="name">Jane Doe</span><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                    </div>
+                                </header>
+                                <a href="single.html" class="image featured"><img src="static/news/images/pic03.jpg" alt="" /></a>
+                                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra, ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
+                                <footer>
+                                    <ul class="actions">
+                                        <li><a href="single.html" class="button large">Continue Reading</a></li>
+                                    </ul>
+                                    <ul class="stats">
+                                        <li><a href="#">General</a></li>
+                                        <li><a href="#" class="icon fa-heart">28</a></li>
+                                        <li><a href="#" class="icon fa-comment">128</a></li>
+                                    </ul>
+                                </footer>
+                            </article>
 
-  <div class="jumbotron p-4 p-md-5 text-white rounded bg-dark">
-    <div class="col-md-6 px-0">
-      <h1 class="display-4 font-italic">Title of a longer featured blog post</h1>
-      <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-      <p class="lead mb-0"><a href="#" class="text-white font-weight-bold">Continue reading...</a></p>
-    </div>
-  </div>
+                        <!-- Post -->
+                        <!--
+                            <article class="post">
+                                <header>
+                                    <div class="title">
+                                        <h2><a href="#">Elements</a></h2>
+                                        <p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+                                    </div>
+                                    <div class="meta">
+                                        <time class="published" datetime="2015-10-18">October 18, 2015</time>
+                                        <a href="#" class="author"><span class="name">Jane Doe</span><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                    </div>
+                                </header>
 
-  <div class="row mb-2">
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-primary">World</strong>
-          <h3 class="mb-0">Featured post</h3>
-          <div class="mb-1 text-muted">Nov 12</div>
-          <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-6">
-      <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-        <div class="col p-4 d-flex flex-column position-static">
-          <strong class="d-inline-block mb-2 text-success">Design</strong>
-          <h3 class="mb-0">Post title</h3>
-          <div class="mb-1 text-muted">Nov 11</div>
-          <p class="mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="stretched-link">Continue reading</a>
-        </div>
-        <div class="col-auto d-none d-lg-block">
-          <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                                <section>
+                                    <h3>Text</h3>
+                                    <p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+                                    This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+                                    This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+                                    <hr />
+                                    <p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+                                    <hr />
+                                    <h2>Heading Level 2</h2>
+                                    <h3>Heading Level 3</h3>
+                                    <h4>Heading Level 4</h4>
+                                    <hr />
+                                    <h4>Blockquote</h4>
+                                    <blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+                                    <h4>Preformatted</h4>
+                                    <pre><code>i = 0;
 
-<main role="main" class="container">
-  <div class="row">
-    <div class="col-md-8 blog-main">
-      <h3 class="pb-4 mb-4 font-italic border-bottom">
-        From the Firehose
-      </h3>
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
 
-      <div class="blog-post">
-        <h2 class="blog-post-title">Sample blog post</h2>
-        <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+                                </section>
 
-        <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
-        <hr>
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
-          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <h2>Heading</h2>
-        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-        <pre><code>Example code block</code></pre>
-        <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
-        <h3>Sub-heading</h3>
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <ul>
-          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-          <li>Donec id elit non mi porta gravida at eget metus.</li>
-          <li>Nulla vitae elit libero, a pharetra augue.</li>
-        </ul>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-        <ol>
-          <li>Vestibulum id ligula porta felis euismod semper.</li>
-          <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
-          <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
-        </ol>
-        <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
-      </div><!-- /.blog-post -->
+                                <section>
+                                    <h3>Lists</h3>
+                                    <div class="row">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Unordered</h4>
+                                            <ul>
+                                                <li>Dolor pulvinar etiam.</li>
+                                                <li>Sagittis adipiscing.</li>
+                                                <li>Felis enim feugiat.</li>
+                                            </ul>
+                                            <h4>Alternate</h4>
+                                            <ul class="alt">
+                                                <li>Dolor pulvinar etiam.</li>
+                                                <li>Sagittis adipiscing.</li>
+                                                <li>Felis enim feugiat.</li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Ordered</h4>
+                                            <ol>
+                                                <li>Dolor pulvinar etiam.</li>
+                                                <li>Etiam vel felis viverra.</li>
+                                                <li>Felis enim feugiat.</li>
+                                                <li>Dolor pulvinar etiam.</li>
+                                                <li>Etiam vel felis lorem.</li>
+                                                <li>Felis enim et feugiat.</li>
+                                            </ol>
+                                            <h4>Icons</h4>
+                                            <ul class="icons">
+                                                <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+                                                <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                                                <li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                                                <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <h3>Actions</h3>
+                                    <div class="row">
+                                        <div class="col-6 col-12-medium">
+                                            <ul class="actions">
+                                                <li><a href="#" class="button">Default</a></li>
+                                                <li><a href="#" class="button">Default</a></li>
+                                                <li><a href="#" class="button">Default</a></li>
+                                            </ul>
+                                            <ul class="actions small">
+                                                <li><a href="#" class="button small">Small</a></li>
+                                                <li><a href="#" class="button small">Small</a></li>
+                                                <li><a href="#" class="button small">Small</a></li>
+                                            </ul>
+                                            <ul class="actions stacked">
+                                                <li><a href="#" class="button">Default</a></li>
+                                                <li><a href="#" class="button">Default</a></li>
+                                                <li><a href="#" class="button">Default</a></li>
+                                            </ul>
+                                            <ul class="actions stacked">
+                                                <li><a href="#" class="button small">Small</a></li>
+                                                <li><a href="#" class="button small">Small</a></li>
+                                                <li><a href="#" class="button small">Small</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <ul class="actions stacked">
+                                                <li><a href="#" class="button fit">Default</a></li>
+                                                <li><a href="#" class="button fit">Default</a></li>
+                                            </ul>
+                                            <ul class="actions stacked">
+                                                <li><a href="#" class="button small fit">Small</a></li>
+                                                <li><a href="#" class="button small fit">Small</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </section>
 
-      <div class="blog-post">
-        <h2 class="blog-post-title">Another blog post</h2>
-        <p class="blog-post-meta">December 23, 2013 by <a href="#">Jacob</a></p>
+                                <section>
+                                    <h3>Table</h3>
+                                    <h4>Default</h4>
+                                    <div class="table-wrapper">
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Description</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Item One</td>
+                                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Two</td>
+                                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                    <td>19.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Three</td>
+                                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Four</td>
+                                                    <td>Vitae integer tempus condimentum.</td>
+                                                    <td>19.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Five</td>
+                                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2"></td>
+                                                    <td>100.00</td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
 
-        <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
-        <blockquote>
-          <p>Curabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-        </blockquote>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      </div><!-- /.blog-post -->
+                                    <h4>Alternate</h4>
+                                    <div class="table-wrapper">
+                                        <table class="alt">
+                                            <thead>
+                                                <tr>
+                                                    <th>Name</th>
+                                                    <th>Description</th>
+                                                    <th>Price</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>Item One</td>
+                                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Two</td>
+                                                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
+                                                    <td>19.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Three</td>
+                                                    <td> Morbi faucibus arcu accumsan lorem.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Four</td>
+                                                    <td>Vitae integer tempus condimentum.</td>
+                                                    <td>19.99</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Item Five</td>
+                                                    <td>Ante turpis integer aliquet porttitor.</td>
+                                                    <td>29.99</td>
+                                                </tr>
+                                            </tbody>
+                                            <tfoot>
+                                                <tr>
+                                                    <td colspan="2"></td>
+                                                    <td>100.00</td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                </section>
 
-      <div class="blog-post">
-        <h2 class="blog-post-title">New feature</h2>
-        <p class="blog-post-meta">December 14, 2013 by <a href="#">Chris</a></p>
+                                <section>
+                                    <h3>Buttons</h3>
+                                    <ul class="actions">
+                                        <li><a href="#" class="button large">Large</a></li>
+                                        <li><a href="#" class="button">Default</a></li>
+                                        <li><a href="#" class="button small">Small</a></li>
+                                    </ul>
+                                    <ul class="actions fit">
+                                        <li><a href="#" class="button fit">Fit</a></li>
+                                        <li><a href="#" class="button fit">Fit</a></li>
+                                        <li><a href="#" class="button fit">Fit</a></li>
+                                    </ul>
+                                    <ul class="actions fit small">
+                                        <li><a href="#" class="button fit small">Fit + Small</a></li>
+                                        <li><a href="#" class="button fit small">Fit + Small</a></li>
+                                        <li><a href="#" class="button fit small">Fit + Small</a></li>
+                                    </ul>
+                                    <ul class="actions">
+                                        <li><a href="#" class="button icon fa-download">Icon</a></li>
+                                        <li><a href="#" class="button icon fa-upload">Icon</a></li>
+                                        <li><a href="#" class="button icon fa-save">Icon</a></li>
+                                    </ul>
+                                    <ul class="actions">
+                                        <li><span class="button disabled">Disabled</span></li>
+                                        <li><span class="button disabled icon fa-download">Disabled</span></li>
+                                    </ul>
+                                </section>
 
-        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <ul>
-          <li>Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</li>
-          <li>Donec id elit non mi porta gravida at eget metus.</li>
-          <li>Nulla vitae elit libero, a pharetra augue.</li>
-        </ul>
-        <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-        <p>Donec ullamcorper nulla non metus auctor fringilla. Nulla vitae elit libero, a pharetra augue.</p>
-      </div><!-- /.blog-post -->
+                                <section>
+                                    <h3>Form</h3>
+                                    <form method="post" action="#">
+                                        <div class="row gtr-uniform">
+                                            <div class="col-6 col-12-xsmall">
+                                                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+                                            </div>
+                                            <div class="col-6 col-12-xsmall">
+                                                <input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+                                            </div>
+                                            <div class="col-12">
+                                                <select name="demo-category" id="demo-category">
+                                                    <option value="">- Category -</option>
+                                                    <option value="1">Manufacturing</option>
+                                                    <option value="1">Shipping</option>
+                                                    <option value="1">Administration</option>
+                                                    <option value="1">Human Resources</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-4 col-12-small">
+                                                <input type="radio" id="demo-priority-low" name="demo-priority" checked>
+                                                <label for="demo-priority-low">Low</label>
+                                            </div>
+                                            <div class="col-4 col-12-small">
+                                                <input type="radio" id="demo-priority-normal" name="demo-priority">
+                                                <label for="demo-priority-normal">Normal</label>
+                                            </div>
+                                            <div class="col-4 col-12-small">
+                                                <input type="radio" id="demo-priority-high" name="demo-priority">
+                                                <label for="demo-priority-high">High</label>
+                                            </div>
+                                            <div class="col-6 col-12-small">
+                                                <input type="checkbox" id="demo-copy" name="demo-copy">
+                                                <label for="demo-copy">Email me a copy</label>
+                                            </div>
+                                            <div class="col-6 col-12-small">
+                                                <input type="checkbox" id="demo-human" name="demo-human" checked>
+                                                <label for="demo-human">Not a robot</label>
+                                            </div>
+                                            <div class="col-12">
+                                                <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+                                            </div>
+                                            <div class="col-12">
+                                                <ul class="actions">
+                                                    <li><input type="submit" value="Send Message" /></li>
+                                                    <li><input type="reset" value="Reset" /></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </section>
 
-      <nav class="blog-pagination">
-        <a class="btn btn-outline-primary" href="#">Older</a>
-        <a class="btn btn-outline-secondary disabled" href="#" tabindex="-1" aria-disabled="true">Newer</a>
-      </nav>
+                                <section>
+                                    <h3>Image</h3>
+                                    <h4>Fit</h4>
+                                    <div class="box alt">
+                                        <div class="row gtr-uniform">
+                                            <div class="col-12"><span class="image fit"><img src="static/news/images/pic02.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic04.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic05.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic06.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic06.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic04.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic05.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic05.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic06.jpg" alt="" /></span></div>
+                                            <div class="col-4"><span class="image fit"><img src="static/news/images/pic04.jpg" alt="" /></span></div>
+                                        </div>
+                                    </div>
+                                    <h4>Left &amp; Right</h4>
+                                    <p><span class="image left"><img src="static/news/images/pic07.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                                    <p><span class="image right"><img src="static/news/images/pic04.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+                                </section>
 
-    </div><!-- /.blog-main -->
+                            </article>
+                        -->
 
-    <aside class="col-md-4 blog-sidebar">
-      <div class="p-4 mb-3 bg-light rounded">
-        <h4 class="font-italic">About</h4>
-        <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
-      </div>
+                        <!-- Pagination -->
+                            <ul class="actions pagination">
+                                <li><a href="" class="disabled button large previous">Previous Page</a></li>
+                                <li><a href="#" class="button large next">Next Page</a></li>
+                            </ul>
 
-      <div class="p-4">
-        <h4 class="font-italic">Archives</h4>
-        <ol class="list-unstyled mb-0">
-          <li><a href="#">March 2014</a></li>
-          <li><a href="#">February 2014</a></li>
-          <li><a href="#">January 2014</a></li>
-          <li><a href="#">December 2013</a></li>
-          <li><a href="#">November 2013</a></li>
-          <li><a href="#">October 2013</a></li>
-          <li><a href="#">September 2013</a></li>
-          <li><a href="#">August 2013</a></li>
-          <li><a href="#">July 2013</a></li>
-          <li><a href="#">June 2013</a></li>
-          <li><a href="#">May 2013</a></li>
-          <li><a href="#">April 2013</a></li>
-        </ol>
-      </div>
+                    </div>
 
-      <div class="p-4">
-        <h4 class="font-italic">Elsewhere</h4>
-        <ol class="list-unstyled">
-          <li><a href="#">GitHub</a></li>
-          <li><a href="#">Twitter</a></li>
-          <li><a href="#">Facebook</a></li>
-        </ol>
-      </div>
-    </aside><!-- /.blog-sidebar -->
+                <!-- Sidebar -->
+                    <section id="sidebar">
 
-  </div><!-- /.row -->
+                        <!-- Intro -->
+                            <section id="intro">
+                                <a href="#" class="logo"><img src="static/news/images/logo.jpg" alt="" /></a>
+                                <header>
+                                    <h2>Future Imperfect</h2>
+                                    <p>Another fine responsive site template by <a href="http://html5up.net">HTML5 UP</a></p>
+                                </header>
+                            </section>
 
-</main><!-- /.container -->
+                        <!-- Mini Posts -->
+                            <section>
+                                <div class="mini-posts">
 
-<footer class="blog-footer">
-  <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
-  <p>
-    <a href="#">Back to top</a>
-  </p>
-</footer>
+                                    <!-- Mini Post -->
+                                        <article class="mini-post">
+                                            <header>
+                                                <h3><a href="single.html">Vitae sed condimentum</a></h3>
+                                                <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                                                <a href="#" class="author"><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic04.jpg" alt="" /></a>
+                                        </article>
 
+                                    <!-- Mini Post -->
+                                        <article class="mini-post">
+                                            <header>
+                                                <h3><a href="single.html">Rutrum neque accumsan</a></h3>
+                                                <time class="published" datetime="2015-10-19">October 19, 2015</time>
+                                                <a href="#" class="author"><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic05.jpg" alt="" /></a>
+                                        </article>
 
-      
+                                    <!-- Mini Post -->
+                                        <article class="mini-post">
+                                            <header>
+                                                <h3><a href="single.html">Odio congue mattis</a></h3>
+                                                <time class="published" datetime="2015-10-18">October 18, 2015</time>
+                                                <a href="#" class="author"><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic06.jpg" alt="" /></a>
+                                        </article>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
+                                    <!-- Mini Post -->
+                                        <article class="mini-post">
+                                            <header>
+                                                <h3><a href="single.html">Enim nisl veroeros</a></h3>
+                                                <time class="published" datetime="2015-10-17">October 17, 2015</time>
+                                                <a href="#" class="author"><img src="static/news/images/avatar.jpg" alt="" /></a>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic07.jpg" alt="" /></a>
+                                        </article>
+
+                                </div>
+                            </section>
+
+                        <!-- Posts List -->
+                            <section>
+                                <ul class="posts">
+                                    <li>
+                                        <article>
+                                            <header>
+                                                <h3><a href="single.html">Lorem ipsum fermentum ut nisl vitae</a></h3>
+                                                <time class="published" datetime="2015-10-20">October 20, 2015</time>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic08.jpg" alt="" /></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <header>
+                                                <h3><a href="single.html">Convallis maximus nisl mattis nunc id lorem</a></h3>
+                                                <time class="published" datetime="2015-10-15">October 15, 2015</time>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic09.jpg" alt="" /></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <header>
+                                                <h3><a href="single.html">Euismod amet placerat vivamus porttitor</a></h3>
+                                                <time class="published" datetime="2015-10-10">October 10, 2015</time>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic10.jpg" alt="" /></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <header>
+                                                <h3><a href="single.html">Magna enim accumsan tortor cursus ultricies</a></h3>
+                                                <time class="published" datetime="2015-10-08">October 8, 2015</time>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic11.jpg" alt="" /></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article>
+                                            <header>
+                                                <h3><a href="single.html">Congue ullam corper lorem ipsum dolor</a></h3>
+                                                <time class="published" datetime="2015-10-06">October 7, 2015</time>
+                                            </header>
+                                            <a href="single.html" class="image"><img src="static/news/images/pic12.jpg" alt="" /></a>
+                                        </article>
+                                    </li>
+                                </ul>
+                            </section>
+
+                        <!-- About -->
+                            <section class="blurb">
+                                <h2>About</h2>
+                                <p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod amet placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at phasellus sed ultricies.</p>
+                                <ul class="actions">
+                                    <li><a href="#" class="button">Learn More</a></li>
+                                </ul>
+                            </section>
+
+                        <!-- Footer -->
+                            <section id="footer">
+                                <ul class="icons">
+                                    <li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
+                                    <li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
+                                    <li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
+                                    <li><a href="#" class="fa-rss"><span class="label">RSS</span></a></li>
+                                    <li><a href="#" class="fa-envelope"><span class="label">Email</span></a></li>
+                                </ul>
+                                <p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+                            </section>
+
+                    </section>
+
+            </div>      
+            {% endblock %}
