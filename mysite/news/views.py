@@ -2,8 +2,10 @@ from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'news/index.html')
+    title = 'News'
+    return render(request, 'news/index.html', {'title': title})
 
 
 def single(request):
-    return render(request, 'news/single.html')
+    title = 'This news'
+    return render(request, 'news/single.html', {'title': title})
